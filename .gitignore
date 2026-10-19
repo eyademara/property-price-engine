@@ -1,0 +1,23 @@
+# Data (too big for GitHub, re-downloadable from Inside Airbnb)
+data/
+
+# Secrets (database passwords etc.)
+.env
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Saved models (can be large)
+*.joblib
+*.pkl
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+.vscode/
